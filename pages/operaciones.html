@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/operaciones.css" />
+  <title>Landing Page con Carrusel</title>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+
+  <div class="container-padre-operaciones">
+    <!-- menu responsive -->
+    <div class="container-menu-responsive">
+      <img src="../assets/images/menu.png" alt="not"
+        onclick="document.getElementById('div-enlaces').style.display='flex'">
+
+      <div class="div-enlaces" id="div-enlaces" onclick="document.getElementById('div-enlaces').style.display='none'">
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Quienes somos</a>
+        <a href="#contactos">Contactos</a>
+        <a href="login.html">Login</a>
+      </div>
+    </div>
+    <!-- menu resonsive -->
+
+    <!--header inicio ----------------------------------------------------------------- -->
+    <header id="header" class="header">
+      <nav class="menu-nav">
+        <img class="logo" src="../assets/images/logo-2.png" alt="not found">
+
+        <div class="redes-sociales">
+          <a href="https://www.facebook.com/profile.php?id=100076204998997" target="_blank">
+            <img src="../assets/iconos/facebook.png" alt="Facebook" />
+          </a>
+          <a href="https://www.instagram.com/corpo.elprogreso/" target="_blank">
+            <img src="../assets/iconos/instagram.png" alt="Instagram" />
+          </a>
+          <a href="https://www.youtube.com/@hectorivangonzalezcastano4831" target="_blank">
+            <img src="../assets/iconos/youtube.png" alt="YouTube" />
+          </a>
+
+        </div>
+
+        <div class="nav-enlaces">
+          <a href="../index.html">Inicio</a>
+        </div>
+      </nav>
+    </header>
+    <!--header fin--------------------------------------------------------------------  -->
+
+    <section class="operaciones-1" id="operaciones-1">
+      <div class="div-info-operaciones">
+        <h3>Operaciones</h3>
+        <p>“Somos una compañía dedicada a la administración de peajes, comprometida con la transparencia, la eficiencia
+          y el servicio al usuario. Gestionamos cada proceso con tecnología moderna y personal capacitado, asegurando
+          una experiencia ágil, segura y confiable en las vías.”</p>
+      </div>
+    </section>
+
+    <!-- -----------------------------------------------------------------------------  -->
+    <section class="operaciones-2" id="operaciones-2">
+
+      <div class="features-peajes">
+        <img src="../assets/personal/peajes-1.jpeg" alt="">
+        <div>
+          <h2>Peajes</h2>
+          <p>Nos inclinamos a transformar la experiencia de los usuarios en las vías, garantizando un tránsito ágil y
+            seguro
+            mediante sistemas tecnológicos de vanguardia. Buscamos que cada peaje no solo sea un punto de recaudo, sino
+            también un pilar para el desarrollo regional, destinando los recursos a la mejora continua de la
+            infraestructura vial y contribuyendo al progreso económico y social del país.</p>
+        </div>
+      </div>
+
+      <div class="features-peajes">
+        <img src="../assets/personal/peajes-2.avif" alt="">
+        <div>
+          <h2>Administracion</h2>
+          <p>Buscamos fortalecer los procesos de planeación, control y seguimiento para optimizar el recaudo, asegurar
+            el cumplimiento normativo y generar reportes claros y confiables para la toma de decisiones. Además,
+            trabajamos en la mejora continua de los procedimientos internos, impulsando la capacitación del talento
+            humano y promoviendo prácticas administrativas que contribuyan a la sostenibilidad y al crecimiento de la
+            organización.</p>
+        </div>
+      </div>
+      <div class="features-peajes">
+        <img src="../assets/personal/operaciones-2.webp" alt="">
+        <div>
+          <h2>Objetivos</h2>
+          <p>Garantizar una gestión eficiente, segura y transparente de la infraestructura vial, ofreciendo un servicio
+            de calidad a los usuarios. Buscamos optimizar los procesos de recaudo y control, asegurando la correcta
+            destinación de los recursos para el mantenimiento y mejoramiento de las vías. Asimismo, trabajamos en la
+            implementación de tecnologías innovadoras que faciliten la movilidad, reduzcan los tiempos de tránsito y
+            contribuyan al desarrollo económico y social de las regiones.</p>
+        </div>
+      </div>
+
+      <div class="features-peajes">
+        <img src="../assets/personal/operaciones-3.jpg" alt="">
+        <div>
+          <h2>Etica Profesional</h2>
+          <p>Nuestros objetivos se fundamentan en la transparencia, la responsabilidad y el compromiso con la
+            comunidad. Trabajamos para que cada proceso administrativo y operativo en los peajes se desarrolle con
+            integridad, asegurando el manejo honesto de los recursos y el respeto hacia los usuarios</p>
+        </div>
+      </div>
+
+    </section>
+    <!-- --------------------------------------------------------------------------------- -->
+    <section class="operaciones-3">
+      <h4>CORPORACION EL PROGRESO</h4>
+    </section>
+
+
+    <!-- ---------------------------------------------------------------------------  -->
+    <section class="contactos" id="contactos">
+      <h2>Oficina principal</h2>
+      <iframe class="map" id="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d495.83291648605524!2d-75.34142407402904!3d6.175805568557379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e469f8a0942a885%3A0xd13943eb36d91b4d!2sEl%20Progreso!5e0!3m2!1ses-419!2sco!4v1754317222468!5m2!1ses-419!2sco">
+      </iframe>
+      <span>Marinilla antioquia</span>
+      <span>CR 41 # 29-91 Barrio maria auxliliadora</span>
+      <p>Lineas de atencion</p>
+      <span>604 5481411</span>
+      <span>3116110022</span>
+    </section>
+    <!-- ----------------------------------------------------------------------------------- -->
+    <footer>
+
+      <div class="footer-nosotros">
+        <h4>Sobre nosotros</h4>
+        <a href="">Quienes somos</a>
+        <a href="">Nuestra historia</a>
+        <a href="">Testimonios</a>
+      </div>
+      <div class="footer-nuestra-empresa">
+        <h4>Nuestra empresa</h4>
+        <a href="">Direccion</a>
+        <a href="">Equipo</a>
+        <a href="">Servicios</a>
+      </div>
+
+      <div class="footer-redes">
+        <h4>Nuestras Redes Sociales</h4>
+        <div class="redes-subdiv">
+          <img src="../assets/iconos/facebook.png" width="20px" alt="not found">
+          <a href="https://www.facebook.com/profile.php?id=100076204998997" target="_blank">facebook</a>
+        </div>
+        <div class="redes-subdiv">
+          <img src="../assets/iconos/instagram.png" width="20px" alt="not found">
+          <a href="https://www.instagram.com/corpo.elprogreso/" target="_blank">instagram</a>
+        </div>
+        <div class="redes-subdiv">
+          <img src="../assets/iconos/youtube.png" width="20px" alt="not found">
+          <a href="https://www.youtube.com/@hectorivangonzalezcastano4831" target="_blank"> youtube</a>
+        </div>
+
+      </div>
+
+      <div class="footer-direccion">
+        <span>Marinilla antioquia</span>
+        <span>CR 41 # 29-91 Barrio Maria Auxiliadora</span>
+        <p>Lineas de Atencion</p>
+        <span>604 5481411</span>
+        <span>3116110022</span>
+      </div>
+
+      <h4> &copy; 2025 Corporacion el Progreso</h4>
+
+    </footer>
+
+  </div>
+  <script src="../app/pages.js"> </script>
+
+</body>
+
+</html>

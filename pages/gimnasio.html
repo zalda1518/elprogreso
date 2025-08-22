@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/gimnasio.css" />
+  <title>Landing Page con Carrusel</title>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+
+  <div class="container-padre-operaciones">
+    <!-- menu responsive -->
+    <div class="container-menu-responsive">
+      <img src="../assets/images/menu.png" alt="not"
+        onclick="document.getElementById('div-enlaces').style.display='flex'">
+
+      <div class="div-enlaces" id="div-enlaces" onclick="document.getElementById('div-enlaces').style.display='none'">
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Quienes somos</a>
+        <a href="#contactos">Contactos</a>
+        <a href="login.html">Login</a>
+      </div>
+    </div>
+    <!-- menu resonsive -->
+
+    <!--header inicio ----------------------------------------------------------------- -->
+    <header id="header" class="header">
+      <nav class="menu-nav">
+        <img class="logo" src="../assets/images/logo-2.png" alt="not found">
+
+        <div class="redes-sociales">
+          <a href="https://www.facebook.com/profile.php?id=100076204998997" target="_blank">
+            <img src="../assets/iconos/facebook.png" alt="Facebook" />
+          </a>
+          <a href="https://www.instagram.com/corpo.elprogreso/" target="_blank">
+            <img src="../assets/iconos/instagram.png" alt="Instagram" />
+          </a>
+          <a href="https://www.youtube.com/@hectorivangonzalezcastano4831" target="_blank">
+            <img src="../assets/iconos/youtube.png" alt="YouTube" />
+          </a>
+
+        </div>
+
+        <div class="nav-enlaces">
+          <a href="../index.html">Inicio</a>
+        </div>
+      </nav>
+    </header>
+    <!--header fin--------------------------------------------------------------------  -->
+
+    <section class="operaciones-1" id="operaciones-1">
+      <div class="div-info-operaciones">
+        <h3>Gimnasio</h3>
+        <p>💪 “En nuestro gimnasio encontrarás el lugar ideal para transformar tu estilo de vida. Contamos con equipos
+          modernos, entrenadores profesionales y un ambiente motivador que te impulsa a alcanzar tus metas,
+          tendrás el acompañamiento y la energía necesaria para superarte cada día.”</p>
+      </div>
+    </section>
+
+    <!-- -----------------------------------------------------------------------------  -->
+    <section class="operaciones-2" id="operaciones-2">
+
+      <div class="features-peajes">
+        <img src="../assets/personal/gimnasio-fondo.webp" alt="">
+        <div>
+          <h2>Equipo y Maquinaria</h2>
+          <p>"¡Transforma tu cuerpo y tu mente! En nuestro gimnasio entrenarás en un espacio moderno, con equipos de
+            última generación y el acompañamiento de entrenadores expertos. Aquí encontrarás la motivación que necesitas
+            para alcanzar tus objetivos y llevar tu rendimiento al siguiente nivel. ¡Tu mejor versión empieza hoy!"</p>
+        </div>
+      </div>
+
+      <div class="features-peajes">
+        <img src="../assets/personal/gimanio-1.png" alt="">
+        <div>
+          <h2>Salud y estilo de vida</h2>
+          <p>"Nuestro gimnasio ofrece un ambiente cómodo y seguro, equipado con máquinas modernas y zonas especializadas
+            para entrenamiento cardiovascular, fuerza y clases grupales. Contamos con entrenadores profesionales que
+            brindan asesoría personalizada, diseñando rutinas según tus metas y nivel físico. También disponemos de
+            planes flexibles para que adaptes tu entrenamiento a tu estilo de vida."</p>
+        </div>
+      </div>
+      <div class="features-peajes">
+        <img src="../assets/personal/gimnasio-2.jpeg" alt="">
+        <div>
+          <h2>Alcanza tus objetivos</h2>
+          <p>"Cada día es una nueva oportunidad para superarte, y en nuestro gimnasio te acompañamos en ese camino. Aquí
+            no solo entrenas tu cuerpo, también fortaleces tu disciplina, constancia y mentalidad positiva. Nuestro
+            objetivo es ayudarte a construir la mejor versión de ti mismo, paso a paso y sin límites."</p>
+        </div>
+      </div>
+
+      <div class="features-peajes">
+        <img src="../assets/personal/gimnasio-4.webp" alt="">
+        <div>
+          <h2>Experiencia del cliente</h2>
+          <p>"Entrenar con nosotros es más que hacer ejercicio: es vivir una experiencia única. Disfruta de un ambiente
+            dinámico, música que te motiva y un equipo siempre dispuesto a apoyarte. Queremos que cada visita sea una
+            fuente de energía, satisfacción y resultados visibles."</p>
+        </div>
+      </div>
+
+    </section>
+    <!-- --------------------------------------------------------------------------------- -->
+    <section class="operaciones-3">
+      <h4>CORPORACION EL PROGRESO</h4>
+    </section>
+
+
+    <!-- ---------------------------------------------------------------------------  -->
+    <section class="contactos" id="contactos">
+      <h2>Oficina principal</h2>
+      <iframe class="map" id="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d495.83291648605524!2d-75.34142407402904!3d6.175805568557379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e469f8a0942a885%3A0xd13943eb36d91b4d!2sEl%20Progreso!5e0!3m2!1ses-419!2sco!4v1754317222468!5m2!1ses-419!2sco">
+      </iframe>
+      <span>Marinilla antioquia</span>
+      <span>CR 41 # 29-91 Barrio maria auxliliadora</span>
+      <p>Lineas de atencion</p>
+      <span>604 5481411</span>
+      <span>3116110022</span>
+    </section>
+    <!-- ----------------------------------------------------------------------------------- -->
+    <footer>
+
+      <div class="footer-nosotros">
+        <h4>Sobre nosotros</h4>
+        <a href="">Quienes somos</a>
+        <a href="">Nuestra historia</a>
+        <a href="">Testimonios</a>
+      </div>
+      <div class="footer-nuestra-empresa">
+        <h4>Nuestra empresa</h4>
+        <a href="">Direccion</a>
+        <a href="">Equipo</a>
+        <a href="">Servicios</a>
+      </div>
+
+      <div class="footer-redes">
+        <h4>Nuestras Redes Sociales</h4>
+        <div class="redes-subdiv">
+          <img src="../assets/iconos/facebook.png" width="20px" alt="not found">
+          <a href="https://www.facebook.com/profile.php?id=100076204998997" target="_blank">facebook</a>
+        </div>
+        <div class="redes-subdiv">
+          <img src="../assets/iconos/instagram.png" width="20px" alt="not found">
+          <a href="https://www.instagram.com/corpo.elprogreso/" target="_blank">instagram</a>
+        </div>
+        <div class="redes-subdiv">
+          <img src="../assets/iconos/youtube.png" width="20px" alt="not found">
+          <a href="https://www.youtube.com/@hectorivangonzalezcastano4831" target="_blank"> youtube</a>
+        </div>
+
+      </div>
+
+      <div class="footer-direccion">
+        <span>Marinilla antioquia</span>
+        <span>CR 41 # 29-91 Barrio Maria Auxiliadora</span>
+        <p>Lineas de Atencion</p>
+        <span>604 5481411</span>
+        <span>3116110022</span>
+      </div>
+
+      <h4> &copy; 2025 Corporacion el Progreso</h4>
+
+    </footer>
+
+  </div>
+  <script src="../app/pages.js"> </script>
+
+</body>
+
+</html>

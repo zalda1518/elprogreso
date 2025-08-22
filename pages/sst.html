@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/sst.css" />
+  <title>Landing Page con Carrusel</title>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+
+  <div class="container-padre-contabilidad">
+    <!-- menu responsive -->
+    <div class="container-menu-responsive">
+      <img src="../assets/images/menu.png" alt="not"
+        onclick="document.getElementById('div-enlaces').style.display='flex'">
+
+      <div class="div-enlaces" id="div-enlaces" onclick="document.getElementById('div-enlaces').style.display='none'">
+        <a href="#contabilidad">Inicio</a>
+        <a href="#contabilidad-2">Servicios</a>
+        <a href="#contactos-sst">Contactos</a>
+        <a href="../index.html">Menu principal</a>
+      </div>
+    </div>
+    <!-- menu resonsive -->
+
+    <!--header inicio ----------------------------------------------------------------- -->
+    <header id="header" class="header">
+      <nav class="menu-nav">
+        <img class="logo" src="../assets/images/logo-2.png" alt="not found">
+
+        <div class="redes-sociales">
+          <a href="https://www.facebook.com/profile.php?id=100076204998997" target="_blank">
+            <img src="../assets/iconos/facebook.png" alt="Facebook" />
+          </a>
+          <a href="https://www.instagram.com/corpo.elprogreso/" target="_blank">
+            <img src="../assets/iconos/instagram.png" alt="Instagram" />
+          </a>
+          <a href="https://www.youtube.com/@hectorivangonzalezcastano4831" target="_blank">
+            <img src="../assets/iconos/youtube.png" alt="YouTube" />
+          </a>
+
+        </div>
+
+        <div class="nav-enlaces">
+          <a href="../index.html">Inicio</a>
+        </div>
+      </nav>
+    </header>
+    <!--header fin--------------------------------------------------------------------  -->
+
+
+
+    <section class="contabilidad" id="contabilidad">
+      <div class="div-contabilidad">
+        <h3>Profesionales En Salud y Seguridad en el Trabajo</h3>
+        <p>“En Corporación El Progreso promovemos la seguridad y salud en el trabajo mediante programas integrales de
+          prevención, asesoría y cumplimiento normativo, orientados a proteger a los trabajadores, reducir riesgos
+          laborales y fortalecer la cultura de autocuidado en cada organización.”</p>
+      </div>
+    </section>
+
+    <!-- -----------------------------------------------------------------------------  -->
+    <section class="contabilidad-2" id="contabilidad-2">
+      <h2>Salud y Seguridad en el Trabajo</h2>
+      <div class="contabilidad-servicios">
+
+        <div class="contabilidad-features">
+          <h3>Diagnostico inicial y plan de Trabajo</h3>
+          <img src="../assets/personal/sst-1.jpg" alt="">
+          <p>Identificamos riesgos laborales y diseñamos estrategias personalizadas para tu empresa.</p>
+        </div>
+
+        <div class="contabilidad-features">
+          <h3>Implementación del SG-SST</h3>
+          <img src="../assets/personal/sst-2.jpg" alt="">
+          <p>Acompañamos en la creación, actualización y cumplimiento del Sistema de Gestión de Seguridad y Salud en el Trabajo</p>
+        </div>
+
+        <div class="contabilidad-features">
+          <h3>Capacitaciones y formación</h3>
+          <img src="../assets/personal/sst-3.jpg" alt="">
+          <p>Entrenamos a tu equipo en prevención de riesgos, uso adecuado de equipos y cultura de autocuidado.</p>
+        </div>
+
+        <div class="contabilidad-features">
+          <h3>Asesoría normativa y legal</h3>
+          <img src="../assets/personal/sst-4.jpg" alt="">
+          <p>Te mantenemos al día con la legislación vigente para evitar sanciones y garantizar el bienestar laboral.</p>
+        </div>
+
+        <div class="contabilidad-features">
+          <h3>Prevención y control de riesgos</h3>
+          <img src="../assets/personal/sst-4.jpg" alt="">
+          <p>Diseñamos medidas efectivas para reducir accidentes, enfermedades laborales y ausentismo. </p>
+        </div>
+        
+        <div class="contabilidad-features">
+          <h3>Acompañamiento permanente</h3>
+          <img src="../assets/personal/sst-4.jpg" alt="">
+          <p>Monitoreamos y evaluamos el cumplimiento del SG-SST con informes claros y recomendaciones prácticas.</p>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ---------------------------------------------------------------------------  -->
+    <section class="contactos-contabilidad" id="contactos-sst">
+      <h2>Oficina principal</h2>
+      <iframe class="map-contabilidad" id="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d495.83291648605524!2d-75.34142407402904!3d6.175805568557379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e469f8a0942a885%3A0xd13943eb36d91b4d!2sEl%20Progreso!5e0!3m2!1ses-419!2sco!4v1754317222468!5m2!1ses-419!2sco">
+      </iframe>
+      <span>Marinilla antioquia</span>
+      <span>CR 41 # 29-91 Barrio maria auxliliadora</span>
+      <p>Lineas de atencion</p>
+      <span>604 5481411</span>
+      <span>3116110022</span>
+    </section>
+    <!-- ----------------------------------------------------------------------------------- -->
+    <footer>
+
+      <div class="footer-contabilidad-nosotros">
+        <h4>Sobre nosotros</h4>
+        <a href="../index.html">Quienes somos</a>
+        <a href="../index.html">Nuestra historia</a>
+        <a href="../index.html">Testimonios</a>
+      </div>
+      <div class="footer-contabilidad-nuestra-empresa">
+        <h4>Nuestra empresa</h4>
+        <a href="../index.html">Direccion</a>
+        <a href="../index.html">Equipo</a>
+        <a href="../index.html">Servicios</a>
+      </div>
+
+      <div class="footer-redes">
+        <h4>Nuestras Redes Sociales</h4>
+        <div class="redes-contabilidad-subdiv">
+          <img src="../assets/iconos/facebook.png" width="20px" alt="not found">
+          <a href="https://www.facebook.com/profile.php?id=100076204998997" target="_blank">facebook</a>
+        </div>
+        <div class="redes-contabilidad-subdiv"">
+          <img src=" ../assets/iconos/instagram.png" width="20px" alt="not found">
+          <a href="https://www.instagram.com/corpo.elprogreso/" target="_blank">instagram</a>
+        </div>
+        <div class="redes-contabilidad-subdiv"">
+          <img src=" ../assets/iconos/youtube.png" width="20px" alt="not found">
+          <a href="https://www.youtube.com/@hectorivangonzalezcastano4831" target="_blank"> youtube</a>
+        </div>
+
+      </div>
+
+      <div class="footer-contabilidad-direccion">
+        <span>Marinilla antioquia</span>
+        <span>CR 41 # 29-91 Barrio Maria Auxiliadora</span>
+        <p>Lineas de Atencion</p>
+        <span>604 5481411</span>
+        <span>3116110022</span>
+      </div>
+
+      <h4> &copy; 2025 Corporacion el Progreso</h4>
+
+    </footer>
+
+  </div>
+  <script src="../app/pages.js"> </script>
+
+</body>
+
+</html>
