@@ -13,3 +13,12 @@ window.addEventListener('scroll', () => {
 
    lastScroll = currentScroll <= 0 ? 0 : currentScroll
 })
+
+/* preloader */
+window.addEventListener("load", () => {
+  const preloader = document.getElementById("preloader");
+  preloader.classList.add("fade-out");
+  setTimeout(() => preloader.style.display = "none", 600);
+});
+
+/* preloader */
