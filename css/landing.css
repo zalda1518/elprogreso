@@ -328,7 +328,7 @@
  }
 
  .div-nosotros-img img {
-   width: 70%;
+   width: 100%;
    height: 400px;
    object-fit: cover;
    border-radius: 10px;
@@ -359,7 +359,6 @@
    margin-top: 1%;
    padding: 1%;
    box-sizing: border-box;
-
  }
 
  .div-nosotros-p1 p {
