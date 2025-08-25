@@ -96,7 +96,9 @@
  }
 
  .logo {
-   width: 5%;
+    width: 4%;
+   background-color: #e7ebec;
+   border-radius: 10%;
    height: 60px;
    margin-top: 10px;
    margin-left: 10px;

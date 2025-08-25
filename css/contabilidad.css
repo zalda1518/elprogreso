@@ -1,148 +1,158 @@
  * {
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
-     transition: all 0.8s ease-in-out;
-     scroll-behavior: smooth;
-     color: rgb(84, 81, 81);
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   transition: all 0.8s ease-in-out;
+   scroll-behavior: smooth;
+   color: rgb(84, 81, 81);
  }
 
  body {
-     font-family: monospace -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-     ;
-     background-color: var(--light);
-     color: var(--dark);
+   font-family: monospace -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+   ;
+   background-color: var(--light);
+   color: var(--dark);
 
  }
 
-  /* preloader */
+ /* preloader */
  #preloader {
-  position: fixed;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 9999;
-}
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 9999;
+ }
 
-/* Spinner */
-.spinner {
-  width: 50px;
-  height: 50px;
-  border: 5px solid #ddd;
-  border-top: 5px solid #3498db;
-  border-radius: 50%;
-  animation: girar 1s linear infinite;
-}
+ /* Spinner */
+ .spinner {
+   width: 50px;
+   height: 50px;
+   border: 5px solid #ddd;
+   border-top: 5px solid #3498db;
+   border-radius: 50%;
+   animation: girar 1s linear infinite;
+ }
 
-@keyframes girar {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
+ @keyframes girar {
+   0% {
+     transform: rotate(0deg);
+   }
 
-#preloader.fade-out {
-  opacity: 0;
-  transition: opacity 0.6s ease;
-  pointer-events: none;
-}
+   100% {
+     transform: rotate(360deg);
+   }
+ }
+
+ #preloader.fade-out {
+   opacity: 0;
+   transition: opacity 0.6s ease;
+   pointer-events: none;
+ }
+
  /* preloader */
 
  .container-padre-contabilidad {
-     width: 100%;
-     background-color: #e6ebf1;
-     background-size: cover;
-     background-attachment: fixed;
-     color: rgb(22, 56, 99);
-     font-family: 'IBM Plex Sans', sans-serif;
-     margin: 0 auto;
-     padding: 0;
-     box-sizing: border-box;
-     
+   width: 100%;
+   background-color: #e6ebf1;
+   background-size: cover;
+   background-attachment: fixed;
+   color: rgb(22, 56, 99);
+   font-family: 'IBM Plex Sans', sans-serif;
+   margin: 0 auto;
+   padding: 0;
+   box-sizing: border-box;
+
 
  }
 
  /*inicio menu superior*/
 
  .header {
-     display: flex;
-     position: fixed;
-     top: 0;
-     left: 0;
-     right: 0;
-     z-index: 1000;
-     width: 100%;
-     color: rgb(22, 56, 99);
-     text-align: center;
-     box-sizing: border-box;
-     background-color: #dadfe2;
-     transition: transform 0.3s ease-in-out;
+   display: flex;
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   z-index: 1000;
+   width: 100%;
+   color: rgb(22, 56, 99);
+   text-align: center;
+   box-sizing: border-box;
+   background-color: #dadfe2;
+   transition: transform 0.3s ease-in-out;
  }
 
  .header.hide {
-     transform: translateY(-100%);
+   transform: translateY(-100%);
  }
 
  .menu-nav {
-     display: flex;
-     flex-wrap: wrap;
-     width: 100%;
-     min-height: 80px;
-     box-sizing: border-box;
-     justify-content: start;
-     color: rgb(22, 56, 99);
-     box-sizing: border-box;
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+   min-height: 80px;
+   box-sizing: border-box;
+   justify-content: start;
+   color: rgb(22, 56, 99);
+   box-sizing: border-box;
 
  }
 
  .logo {
-     width: 5%;
-     height: 60px;
-     margin-top: 10px;
-     margin-left: 10px;
+   height: 60px;
+   margin-top: 10px;
+   margin-left: 10px;
+   width: 4%;
+   background-color: #e7ebec;
+   border-radius: 10%;
  }
 
  .redes-sociales {
-     width: 10%;
-     color: rgb(22, 56, 99);
-     box-sizing: border-box;
-     place-content: center;
-     box-sizing: border-box;
+   width: 10%;
+   color: rgb(22, 56, 99);
+   box-sizing: border-box;
+   place-content: center;
+   box-sizing: border-box;
  }
 
  .redes-sociales img {
-     width: 10%;
-     margin: 5px;
-     color: #00ccff;
+   width: 10%;
+   margin: 5px;
+   color: #00ccff;
  }
 
  .redes-sociales a {
-     text-decoration: none;
-     color: rgb(22, 56, 99);
+   text-decoration: none;
+   color: rgb(22, 56, 99);
  }
 
  .div-titulo {
-     width: 45%;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     margin-left: 5%;
+   width: 45%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 5%;
  }
 
  .div-titulo img {
-     width: 20%;
-     height: 70px;
-     cursor: pointer;
-     text-decoration: none;
+   width: 20%;
+   height: 70px;
+   cursor: pointer;
+   text-decoration: none;
  }
 
  /* inicio responsive */
  .div-enlaces {
-     display: flex;
-     flex-direction: row;
-     width: 45%;
-     margin-right: 5%;
+   display: flex;
+   flex-direction: row;
+   width: 45%;
+   margin-right: 5%;
  }
 
  /* inicio responsive */
@@ -150,29 +160,29 @@
  /* ---------------------------------------------- */
 
  .nav-enlaces {
-     display: flex;
-     width: 45%;
-     justify-content: end;
-     margin-left: 38%;
-     box-sizing: border-box;
+   display: flex;
+   width: 45%;
+   justify-content: end;
+   margin-left: 38%;
+   box-sizing: border-box;
  }
 
  .nav-enlaces a {
-     width: 12%;
-     place-content: center;
-     text-decoration: none;
-     font-size: 15px;
-     font-weight: 500;
-     color: rgb(22, 56, 99);
+   width: 12%;
+   place-content: center;
+   text-decoration: none;
+   font-size: 15px;
+   font-weight: 500;
+   color: rgb(22, 56, 99);
  }
 
  .nav-enlaces a:hover {
-     color: #00ccff;
-     transition: 0.5s ease;
+   color: #00ccff;
+   transition: 0.5s ease;
  }
 
  .container-menu-responsive {
-     display: none;
+   display: none;
  }
 
  /*fin menu superior*/
@@ -180,105 +190,110 @@
  /*------------------------------------------*/
 
  .contabilidad {
-     width: 100%;
-     margin: auto;
-     margin-top:4%;
-     min-height: 700px;
-     display: flex;
-     flex-wrap: wrap;
-     border: solid 1px #dadfe2;
-     background-image:
-         linear-gradient(to top, rgba(28, 105, 73, 0.55), rgba(83, 196, 177, 0.15)),
-         url("../assets/personal/fondo-contabilidad.jpg");
-     background-size: cover;
-     background-position: center;
-     background-repeat: no-repeat;
-     box-sizing: border-box;
+   width: 100%;
+   margin: auto;
+   margin-top: 4%;
+   min-height: 700px;
+   display: flex;
+   flex-wrap: wrap;
+   border: solid 1px #dadfe2;
+   background-image:
+     linear-gradient(to top, rgba(28, 105, 73, 0.55), rgba(83, 196, 177, 0.15)),
+     url("../assets/personal/fondo-contabilidad.jpg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   box-sizing: border-box;
  }
 
  .div-contabilidad {
-     width: 40%;
-     display: flex;
-     flex-wrap: wrap;
-     min-height: 400px;
-     margin: auto;
-     padding: 10px;
-     margin-top: 5%;
-     margin-left: 2%;
-     box-sizing: border-box;
-     p{
-         font-size: 18px;
-         text-align: justify;
-         margin-top: 10px;
-        color: white;
+   width: 40%;
+   display: flex;
+   flex-wrap: wrap;
+   min-height: 400px;
+   margin: auto;
+   padding: 10px;
+   margin-top: 5%;
+   margin-left: 2%;
+   box-sizing: border-box;
 
-     }
- }
- .contabilidad h3 {
-     width: 100%;
-     text-align: center;
-     font-size: 40px;
+   p {
+     font-size: 18px;
+     text-align: justify;
+     margin-top: 10px;
      color: white;
-     margin-top: 20px;
+
+   }
+ }
+
+ .contabilidad h3 {
+   width: 100%;
+   text-align: center;
+   font-size: 40px;
+   color: white;
+   margin-top: 20px;
  }
 
 
  .contabilidad-2 {
-     width: 100%;
-     margin: auto;
-     min-height: 500px;
-     display: flex;
-     flex-wrap: wrap;
-     border: solid 1px #dadfe2;
-      
+   width: 100%;
+   margin: auto;
+   min-height: 500px;
+   display: flex;
+   flex-wrap: wrap;
+   border: solid 1px #dadfe2;
+
  }
+
  /* -------------------------------------------------------- */
 
  .contabilidad-2 {
-    box-sizing: border-box;
-     display: flex;
-     flex-wrap: wrap;
-     width: 100%;
-     margin: auto;
-     text-align: center;
+   box-sizing: border-box;
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+   margin: auto;
+   text-align: center;
  }
+
  .contabilidad-2 h2 {
-     width: 100%;
-     text-align: center;
-     font-size: 40px;
-     color: rgb(75, 69, 69);
-     margin-top: 20px;
+   width: 100%;
+   text-align: center;
+   font-size: 40px;
+   color: rgb(75, 69, 69);
+   margin-top: 20px;
  }
 
  .contabilidad-servicios {
-     width: 100%;
-     display: flex;
-     flex-wrap: wrap;
-     box-sizing: border-box;
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   box-sizing: border-box;
  }
 
  .contabilidad-features {
-     width: 22%;
-     margin: auto;
-     margin: 1%;
-     padding: 1%;
-     box-sizing: border-box;
-     border-radius: 10px;
-     color: rgb(168, 180, 184);
+   width: 22%;
+   margin: auto;
+   margin: 1%;
+   padding: 1%;
+   box-sizing: border-box;
+   border-radius: 10px;
+   color: rgb(168, 180, 184);
  }
 
  .contabilidad-features img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-     border-radius: 2%;
-     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
- }
- .contabilidad-features h3{
-    color: rgb(82, 73, 73);
+   width: 100%;
+   height: 300px;
+   object-fit: cover;
+   border-radius: 2%;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
  }
 
-  .contabilidad-features:hover {
+ .contabilidad-features h3 {
+   color: rgb(82, 73, 73);
+ }
+
+ .contabilidad-features:hover {
    transform: scale(1.10);
    transition: 0.2s ease;
    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
@@ -300,32 +315,35 @@
    box-sizing: border-box;
    background-color: #e6ebf1;
  }
-    .contactos-contabilidad h2 {
-    width: 100%;
-    text-align: center;
-    font-size: 30px;
-    color: rgb(22, 56, 99);
-    margin-top: 20px;
-    }
-   .contactos-contabilidad p, span {
-    width: 100%;
-    text-align: center;
-    color: rgb(22, 56, 99);
-    margin: 5px;
-   
-} 
 
- .map-contabilidad{
-    width: 50%;
-    min-height: 400px;
-    margin: auto;
-    margin-top: 2%;
-    box-sizing: border-box;
-    border-radius: 10px;
+ .contactos-contabilidad h2 {
+   width: 100%;
+   text-align: center;
+   font-size: 30px;
+   color: rgb(22, 56, 99);
+   margin-top: 20px;
+ }
+
+ .contactos-contabilidad p,
+ span {
+   width: 100%;
+   text-align: center;
+   color: rgb(22, 56, 99);
+   margin: 5px;
+
+ }
+
+ .map-contabilidad {
+   width: 50%;
+   min-height: 400px;
+   margin: auto;
+   margin-top: 2%;
+   box-sizing: border-box;
+   border-radius: 10px;
  }
 
  /* ------------------------------- */
-  footer {
+ footer {
    width: 100%;
    display: flex;
    flex-wrap: wrap;
@@ -445,7 +463,9 @@
    box-sizing: border-box;
    color: rgb(22, 56, 99);
  }
- .footer-contabilidad-direccion span, p{
+
+ .footer-contabilidad-direccion span,
+ p {
    color: rgb(22, 56, 99);
 
  }
@@ -468,14 +488,14 @@
  /*-----------------------------------------------------------------------*/
  @media screen and (max-width: 768px) {
 
-  .header{
-    display: none;
-  }
+   .header {
+     display: none;
+   }
 
    .menu-nav {
      display: none;
    }
-   
+
    .container-menu-responsive {
      display: flex;
      width: 100%;
@@ -489,6 +509,7 @@
      transition: all 0.8s ease-in-out;
      scroll-behavior: smooth;
    }
+
    .container-menu-responsive img {
      width: 10%;
      height: 50px;
@@ -496,7 +517,7 @@
      text-decoration: none;
    }
 
-     .div-enlaces {
+   .div-enlaces {
      position: absolute;
      top: 0px;
      left: 0px;
@@ -510,7 +531,8 @@
      animation-duration: 0.5s;
      transition: all 0.5s ease-in-out;
    }
-     @keyframes fx {
+
+   @keyframes fx {
      0% {
        left: -1000px;
      }
@@ -531,59 +553,64 @@
 
    /* ------------------------------------------- */
 
-   .contabilidad{
-    width: 100%;
+   .contabilidad {
+     width: 100%;
    }
-    .div-contabilidad {
-      width: 90%;
-      margin: auto;
-      margin-top: 15%;
-      padding: 10px;
-      box-sizing: border-box;
-    }
-    .contabilidad-2 {
-      width: 100%;
-      margin: auto;
-      min-height: 500px;
-      display: flex;
-      flex-wrap: wrap;
-      border: solid 1px #dadfe2;
-    }
-    .contabilidad-servicios {
-      width: 100%;
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
-      box-sizing: border-box;
-      justify-content: center;
-    }
-    .contabilidad-features {
-      width: 90%;
-      margin: auto;
-      margin-top: 2%;
-      padding: 1%;
-      box-sizing: border-box;
-      border-radius: 10px;
-      color: rgb(168, 180, 184);
-    }
 
-    /* -------------------------------------- */
-    .contactos-contabilidad {
-      width: 100%;
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
-      margin: auto;
-      min-height: 400px;
-      margin-top: 2%;
-      box-sizing: border-box;
-    }
-    .map-contabilidad {
-      width: 90%;
-      min-height: 400px;
-      margin: auto;
-      margin-top: 2%;
-      box-sizing: border-box;
-      border-radius: 10px;
-    }
+   .div-contabilidad {
+     width: 90%;
+     margin: auto;
+     margin-top: 15%;
+     padding: 10px;
+     box-sizing: border-box;
+   }
+
+   .contabilidad-2 {
+     width: 100%;
+     margin: auto;
+     min-height: 500px;
+     display: flex;
+     flex-wrap: wrap;
+     border: solid 1px #dadfe2;
+   }
+
+   .contabilidad-servicios {
+     width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+     box-sizing: border-box;
+     justify-content: center;
+   }
+
+   .contabilidad-features {
+     width: 90%;
+     margin: auto;
+     margin-top: 2%;
+     padding: 1%;
+     box-sizing: border-box;
+     border-radius: 10px;
+     color: rgb(168, 180, 184);
+   }
+
+   /* -------------------------------------- */
+   .contactos-contabilidad {
+     width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+     margin: auto;
+     min-height: 400px;
+     margin-top: 2%;
+     box-sizing: border-box;
+   }
+
+   .map-contabilidad {
+     width: 90%;
+     min-height: 400px;
+     margin: auto;
+     margin-top: 2%;
+     box-sizing: border-box;
+     border-radius: 10px;
+   }
  }
