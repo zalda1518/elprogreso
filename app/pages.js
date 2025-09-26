@@ -15,12 +15,12 @@ window.addEventListener('scroll', () => {
 })
 
 /* preloader */
-window.addEventListener("load", () => {
-   if (window.screenY > 100) {
+window.addEventListener("DOMContentLoaded", () => {
+   
       const preloader = document.getElementById("preloader");
       preloader.classList.add("fade-out");
       setTimeout(() => preloader.style.display = "none", 600);
-   }
+   
 
 });
 
