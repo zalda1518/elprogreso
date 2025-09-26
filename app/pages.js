@@ -16,9 +16,12 @@ window.addEventListener('scroll', () => {
 
 /* preloader */
 window.addEventListener("load", () => {
-  const preloader = document.getElementById("preloader");
-  preloader.classList.add("fade-out");
-  setTimeout(() => preloader.style.display = "none", 600);
+   if (window.screenY > 100) {
+      const preloader = document.getElementById("preloader");
+      preloader.classList.add("fade-out");
+      setTimeout(() => preloader.style.display = "none", 600);
+   }
+
 });
 
 /* preloader */
